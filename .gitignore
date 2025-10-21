@@ -1,0 +1,23 @@
+Virtual Environment
+
+venv/
+env/
+
+Python compiled files
+
+pycache/
+*.pyc
+
+Model files (Optional but recommended to avoid large repositories)
+
+If your models are large, you might want to exclude them,
+
+but for a small project, keeping them is fine.
+
+models/*.pkl
+
+models/*.pickle
+
+Flask/OS specific files
+
+.DS_Store
